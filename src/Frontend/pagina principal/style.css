@@ -1,11 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Roboto:wght@300;400&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
 }
+
 
 /* h3 {
    font-size: 15px;
@@ -23,14 +26,14 @@ body{
     height: relative;
     background:whitesmoke;
     width: 70px;
-    box-shadow: 10px 0 0 rgb(104, 0, 189);
+    box-shadow: 10px 0 0 #FCA311;
     border-left: 10px solid whitesmoke;
     overflow-x: hidden;
     transition: 0.5s;
 }
 
 .navegacao:hover{
-    width: 300px;
+    width: 250px;
 }
 
 .navegacao ul{
@@ -44,7 +47,7 @@ body{
 
 .navegacao ul li{
     position: relative;
-   list-style: none;
+    list-style: none;
     width: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -55,7 +58,7 @@ body{
     display: flex;
     width: 100%;
     text-decoration: none;
-    color: rgb(85, 85, 85);
+    color: rgb(0, 0, 0);
 }
 
 .navegacao ul li a .icone{
@@ -76,17 +79,17 @@ body{
 .navegacao ul li a .title{
     position: relative;
     display: block;
-    padding-left: 10px;
-    height: 60px;
+    padding-left: 0;
+    height: 50px;
     line-height: 60px;
     white-space: nowrap;
 }
 
-.navegacao li:hover{
-    background: rgba(104, 0, 189, 0.24);
+.navegacao .active{
+    background: #FCA311;
 }
 
-/* .navegacao ul li.active a::before{
+.navegacao ul li.active a::before{
     content: '';
     position: absolute;
     top: -30px;
@@ -95,7 +98,7 @@ body{
     height: 30px;
     background: whitesmoke;
     border-radius: 50%;
-    box-shadow: 15px 15px 0 rgb(104, 0, 189);
+    box-shadow: 15px 15px 0 #FCA311;
 }
 
 .navegacao ul li.active a::after{
@@ -107,5 +110,5 @@ body{
     height: 30px;
     background: whitesmoke;
     border-radius: 50%;
-    box-shadow: 15px -15px 0 rgb(104, 0, 189);
-} */
+    box-shadow: 15px -15px 0 #FCA311;
+}
