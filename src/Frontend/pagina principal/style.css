@@ -25,7 +25,7 @@ body{
     position: relative;
     height: relative;
     background:whitesmoke;
-    width: 70px;
+    width: 70px; /* mudar para 70px para efeito anterior */
     box-shadow: 10px 0 0 #FCA311;
     border-left: 10px solid whitesmoke;
     overflow-x: hidden;
@@ -44,6 +44,37 @@ body{
     padding-left: 5px;
     padding-top: 40px;
 }
+/* .Vagas_opc{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px   ;
+    color: black;
+    padding-bottom: 10px;
+
+}
+.icon{
+    position: relative;
+    display: block;
+    min-width: 50px;
+    height: 20px;
+    text-align: center;
+
+}
+.abrir_opc_vagas{
+    position: relative;
+    width: relative;
+    background:whitesmoke;
+    height: 0px; /* mudar para 70px para efeito anterior 
+   
+    overflow-y: hidden;
+    transition: 0.5s;
+} 
+
+.abrir_opc_vagas:hover{
+    width: 120px;
+} */
 
 .navegacao ul li{
     position: relative;
@@ -92,10 +123,10 @@ body{
 .navegacao ul li.active a::before{
     content: '';
     position: absolute;
-    top: -30px;
+    top: -25px;
     right: 0;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: whitesmoke;
     border-radius: 50%;
     box-shadow: 15px 15px 0 #FCA311;
@@ -104,11 +135,57 @@ body{
 .navegacao ul li.active a::after{
     content: '';
     position: absolute;
-    bottom: -30px;
+    bottom: -25px;
     right: 0;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: whitesmoke;
     border-radius: 50%;
     box-shadow: 15px -15px 0 #FCA311;
+}
+
+/* Parte central da página */
+
+.parte_central{
+    position:absolute;
+    background: #ffffff;
+    width:62%;
+    height: 100%;
+    left: 260px;
+}
+.parte_central h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.parte_central .secao1{
+    position: relative;
+    margin-left: 27.5px;
+    display: inline-block;
+    width: 380px;
+    border-top: 10px solid #FCA311;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.parte_central .secao1 a{
+    position: relative;
+    display: block;
+    color: #000000;
+    background: #E5E5E5;
+    text-decoration: none;
+    text-align: center;
+    font-weight: medium;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.parte_central  .secao2 {
+    position: relative;
+    display: inline-block;
 }
