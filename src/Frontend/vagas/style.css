@@ -49,4 +49,10 @@ a{
 
 .textRange{
     font-size: 15px;
+    display:flex;
+}
+
+.Medidor{
+    margin: 20px;
+
 }
