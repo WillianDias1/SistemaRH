@@ -44,19 +44,19 @@ body{
     padding-left: 5px;
     padding-top: 40px;
 }
-/* .Vagas_opc{
+.Vagas_opc{
     position: relative;
     text-decoration: none;
     display: flex;
-    padding-left: 10px;
-    padding-top: 10px   ;
+    margin-left: 20px;
+    margin-top: 20px;
     color: black;
-    padding-bottom: 10px;
-
+    margin-bottom: 20px;
+    
 }
 .icon{
     position: relative;
-    display: block;
+    display: flex;
     min-width: 50px;
     height: 20px;
     text-align: center;
@@ -64,15 +64,11 @@ body{
 }
 .abrir_opc_vagas{
     position: relative;
-    width: relative;
+    white-space: nowrap;
     background:whitesmoke;
-    height: 0px; /* mudar para 70px para efeito anterior 
-   
-    overflow-y: hidden;
-    transition: 0.5s;
 } 
 
-.abrir_opc_vagas:hover{
+/* .abrir_opc_vagas:hover{
     width: 120px;
 } */
 
@@ -157,6 +153,7 @@ body{
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 50px;
+    color: #14213D;
 }
 
 .parte_central .secao1{

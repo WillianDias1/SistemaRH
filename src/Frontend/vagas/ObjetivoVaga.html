@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <link rel="stylesheet" href="../pagina principal/style.css">
     <link rel="stylesheet" href="./style.css">
+    <title>Criar vagas</title>
 </head>
 <body>
     <div class="navegacao">
         <ul>
-            <li class="lista active">    
-                <a href="#">
+            <li class="lista ">    
+                <a href="../pagina principal/index.html">
                     <!-- <h3>Menu</h3> -->
                     <span class="icone"><ion-icon name="bowling-ball-outline"></ion-icon></ion-icon></span>
                     <span class="title">Overview</span>
@@ -29,8 +30,8 @@
                     <span class="title">Revisar candidatos</span>
                 </a>
             </li>
-            <li class="lista">    
-                <a href="../vagas/CriarVagas.html">
+            <li class="lista active">    
+                <a href="#">
                     <span class="icone"><ion-icon name="people-outline"></ion-icon></span>
                     <span class="title">Vagas</span>
                 </a>    
@@ -38,12 +39,12 @@
 
             
             <div class="abrir_opc_vagas">
-                <a class="Vagas_opc" href="#">
+                <a class="Vagas_opc" href="./CriarVagas.html">
                     <span class="icon"><ion-icon class="icon" name="caret-forward-outline"></ion-icon></span>
                     <span class="title">Criar vaga</span>
                 </a>
           
-                <a class="Vagas_opc" href="#">
+                <a class="Vagas_opc selecionado" href="#">
                     <span class="icon"><ion-icon class="icon" name="caret-forward-outline"></ion-icon></span>
                     <span class="title">Objetivos da vaga</span>
                 </a>
@@ -90,17 +91,33 @@
         item.addEventListener('click', activeLink));
     </script>
 
-    <div class="parte_central">
-        <h2>Dashboard</h2>
-        <section class="secao1">
-            <h3>Atividades recentes nas vagas</h3>
-            <a href="#">Ver todas</a>
-        </section>
-        <section class="secao1 secao2">
-            <h3>Avaliações pendentes</h3>
-            <a href="#">Ver todas</a>
-        </section>
+<div class="parte_central">
+    <h2>Quais os objetivos da vaga?</h2>
+    <section class="secao">
+        <h3 class="textobj">Descrição da vaga</h3>
+      
+        <label class="textRange" for="temp">Colaborativo</label>
+        <input type="range" id="temp" name="temp" list="tickmarks" />
         
-    </div>
+        <datalist class="tickmarks">
+            <option value="0"></option>
+            <option value="25"></option>
+            <option value="50"></option>
+            <option value="75"></option>
+            <option value="100"></option>
+        </datalist>
+        
+        <a href="#">
+            <button class="botao">Cancelar</button>
+        </a>
+
+        <a href="#">
+            <button class="botao botao2">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+                Próxima etapa
+            </button>
+        </a>
+    </section>
+</div>
 </body>
 </html>

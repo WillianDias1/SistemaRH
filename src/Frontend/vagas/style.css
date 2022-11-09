@@ -1,0 +1,52 @@
+.selecionado{
+    background-color: #fca21144;
+    border-radius: 5px;
+}
+input[type=text] {
+    border: 2px solid #FCA311;
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 60px;
+    color: rgb(134, 134, 134);
+    margin-bottom: 30px;
+}
+.secao{
+    margin-left: 30px;
+}
+
+textarea{
+    border: 2px solid #FCA311;
+    border-radius: 4px;
+    color: rgb(134, 134, 134);
+    display: block;
+}
+
+.botao{
+    padding: 5px;
+    margin-right: 45px; 
+    margin-top: 10px;
+    border: 2px solid #b1b1b1;
+    border-radius: 4px;
+    background: #b1b1b1;
+    text-align: center;
+    /* font-weight: medium; */
+}
+.botao:hover{
+    background: #14213D;
+    color: #fff;
+    border: 2px solid #14213D;
+}
+.botao2{
+    color : white;
+    background: #FCA311;
+    border-color: #FCA311;  
+}
+a{
+    text-decoration: none;
+}
+
+/* Parte de ObjetivoVagas */
+
+.textRange{
+    font-size: 15px;
+}
