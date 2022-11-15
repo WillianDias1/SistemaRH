@@ -49,10 +49,139 @@ a{
 
 .textRange{
     font-size: 15px;
-    display:flex;
+    display:inline-block;
 }
 
 .Medidor{
     margin: 20px;
+    margin-bottom: 75px;
 
+}
+
+/* Parte adicionar candidatos*/
+
+.CaixasLinkEmail{
+    border: 2px solid #FCA311;
+    border-radius: 4px;
+    padding: 5px;
+    display: inline-block;
+    width: 200px;
+    padding: 30px;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 17px;
+    box-shadow: 3px 5px 0 #b1b1b1;
+}
+
+.CaixasLinkEmail a{ 
+    margin-left: 30px;
+    text-decoration: none;
+    color: #14213D;
+    padding: auto;
+    
+}
+
+.CaixasLinkEmail .icon{
+    position: relative;
+    margin-left: 40px;  
+    min-width: 50px;
+    height: 50px;
+}
+
+.CaixasLinkEmail:hover{
+   background: #FCA311;
+   color: #ffff;
+}
+.CaixasLinkEmail .ajust:hover{
+    color: #ffff;
+}
+.inp{
+    display:inline;
+}
+h4{    
+    color: #14213D;
+}
+.divCaixa{
+    margin: 10px;
+}
+
+.inp[type=text] {
+    border: 2px solid #FCA311;
+    border-radius: 4px;
+    padding: 3px;
+    padding-right: 60px;
+    color: rgb(134, 134, 134);
+    margin-bottom: 10px;
+    display:block;   
+}
+
+.inp[type=email] {
+    border: 2px solid #FCA311;
+    border-radius: 4px;
+    padding: 3px;
+    padding-right: 60px;
+    color: rgb(134, 134, 134);
+    margin-bottom: -50px;
+    display:block;   
+}
+.estilo{
+    -webkit-appearance:none;
+    background: #E5E5E5;
+    outline: none;
+    width: 300px;
+    height: 10px;
+    border-radius: 9px;   
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.estilo::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #FCA311;
+    cursor: pointer;
+}
+
+.estilo::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #FCA311;
+    cursor: pointer;
+}
+.resultado{
+    color:#14213D;
+    margin-left: 235px;
+    margin-top: 10px;
+    
+    display: block;
+}
+
+.Todo{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Medidor1{
+    border: 1px solid #FCA311;
+    margin-top: 20px;
+    width: 510px;
+    box-shadow: 2px 3px 2px #b1b1b1;
+}
+.Todo .textRange{
+    margin-left: 8px;
+}
+.textRange1{
+    margin-left: 17px;
+}
+.textRange2{
+    margin-left: 38px;
+}
+.textRange3{
+    margin-left: 24px;
 }

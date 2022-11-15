@@ -7,6 +7,10 @@
     box-sizing: border-box;
     font-family:'Roboto', sans-serif;
     font-weight: medium;
+    
+}
+h3{
+    color:#14213D;
 }
 
 
@@ -23,7 +27,7 @@ body{
 
 .navegacao{
     position: relative;
-    height: relative;
+    height: 800px;
     background:whitesmoke;
     width: 70px; /* mudar para 70px para efeito anterior */
     box-shadow: 10px 0 0 #FCA311;
@@ -34,8 +38,12 @@ body{
 
 .navegacao:hover{
     width: 250px;
+    
 }
 
+span:hover{
+    text-decoration: underline #FCA311;
+}
 .navegacao ul{
     position: absolute;
     top: 0;

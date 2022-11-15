@@ -1,0 +1,63 @@
+.Medidor1 h3{
+    text-align: center;
+    margin-top: 5px;
+}
+.Medidor h3{
+    margin-left: -20px;
+}
+
+table, th, td {
+    border: 1px solid #E5E5E5;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td{
+padding: 10px;
+text-align: center;
+width: 120px;
+}
+
+th{
+font-weight: bold;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: #FCA311;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  }
+  input[type="checkbox"] {
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+
+  input[type="checkbox"]::before {
+    /* ...existing styles */
+  
+    /* Windows High Contrast Mode */
+    background-color: #FCA311;
+  }

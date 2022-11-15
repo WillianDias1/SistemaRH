@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../pagina principal/style.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./">
     <title>Criar vagas</title>
 </head>
 <body>
@@ -45,12 +44,12 @@
                     <span class="title">Criar vaga</span>
                 </a>
           
-                <a class="Vagas_opc selecionado" href="#">
+                <a class="Vagas_opc" href="./ObjetivoVaga.html">
                     <span class="icon"><ion-icon class="icon" name="caret-forward-outline"></ion-icon></span>
                     <span class="title">Objetivos da vaga</span>
                 </a>
                 
-                <a class="Vagas_opc" href="./adicionarCandidatos.html">
+                <a class="Vagas_opc selecionado" href="#">
                     <span class="icon"><ion-icon class="icon" name="caret-forward-outline"></ion-icon></span>
                     <span class="title">Adcionar candidatos</span>
                 </a>
@@ -93,89 +92,47 @@
     </script>
 
 <div class="parte_central">
-    <h2>Quais os objetivos da vaga?</h2>
+    <h2>Adicionar Candidatos</h2>
     <section class="secao">
-        <h3 class="textobj">Descrição da vaga</h3>
-        <div class="Medidor1">
+        <h3>Enviar formulario para os candidatos da vaga de Designer </h3>
+        <div class="Medidor">
 
-            <div class="Todo">
-                <span class="textRange" for="temp">Colaborativo</span>
-                <input type="range" min="0" max="100" value="50" class="estilo" id="valor">
-                <span class="textRange" for="temp">Independente</span>
-                <p class="resultado" id="resultado">.</p>
-            </div>
-            
-            <div class="Todo">
-                <label class="textRange1" for="temp">Reservado</label>
-                <input type="range" min="0" max="100" value="50" class="estilo" id="valor1">
-                <span class="textRange" for="temp">Sociável</span>
-                <p class="resultado" id="resultado1">.</p>
-            </div>
-            
-            <div class="Todo">
-                <label class="textRange2" for="temp">Intenso</label>
-                <input type="range" min="0" max="100" value="50" class="estilo" id="valor2">
-                <span class="textRange" for="temp">Paciente</span>
-                <p class="resultado" id="resultado2">.</p>
-            </div>
-            
-            <div class="Todo">
-                <label class="textRange3" for="temp">Impulsivo</label>
-                <input type="range" min="0" max="100" value="50" class="estilo" id="valor3">
-                <span class="textRange" for="temp">Vigilante</span>
-                <p class="resultado" id="resultado3">.</p>
-            </div>
-            
+           <div class="CaixasLinkEmail">
+            <ion-icon class="icon" name="link-outline"></ion-icon>
+            <a class="ajust" href="#">Criar link</a>
+           </div>
 
+           <div class="CaixasLinkEmail">
+            <ion-icon class="icon" name="mail-outline"></ion-icon>
+            <a class="ajust" href="#">Criar Email</a>
+           </div>
+
+           <div >
+            <h4>Digite os emails separados por vírgulas</h4>
+            <textarea name="descrption" value="Email's" cols="80" rows="2"></textarea>
+            <div class="divCaixa">
+                <h4>Nome</h4>
+                <input class="inp" type="text">
             
+                <h4>Sobrenome</h4>
+                <input class="inp" type="text">
+
+                <h4>Email</h4>
+                <input class="inp" type="email">
+            </div>
+            
+           </div>
+
         </div>
         
-        <script type="text/javascript">
-
-            // Colaborativo
-            function range(){
-             let resultado = document.getElementById("resultado");
-             let valor = document.getElementById("valor").value;
-             resultado.innerHTML = valor
-            }
-            range()   
-            document.addEventListener("change", range);
-            // Reservado
-            function range1(){
-             let resultado1 = document.getElementById("resultado1");
-             let valor = document.getElementById("valor1").value;
-             resultado1.innerHTML = valor
-            }
-            range1()
-            document.addEventListener("change", range1);
-            // Intenso
-            function range2(){
-             let resultado2 = document.getElementById("resultado2");
-             let valor = document.getElementById("valor2").value;
-             resultado2.innerHTML = valor
-            }
-            range2()
-            document.addEventListener("change", range2);
-            // Impulsivo
-            function range3(){
-             let resultado3 = document.getElementById("resultado3");
-             let valor = document.getElementById("valor3").value;
-             resultado3.innerHTML = valor
-            }
-            range3()
-            document.addEventListener("change", range3);
-             
-        </script>
-            
         
         <a href="#">
             <button class="botao">Cancelar</button>
         </a>
 
-        <a href="./adicionarCandidatos.html">
+        <a href="#">
             <button class="botao botao2">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-                Próxima etapa
+                FInalizar
             </button>
         </a>
     </section>
