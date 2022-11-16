@@ -10,7 +10,7 @@ body * {
 }
 
 /*Fundo*/
-.main-login{
+.main-cadastro{
     width: 100vw;
     height: 100vh;
     background: #f2eff8;
@@ -19,25 +19,25 @@ body * {
     align-items: center;
 }
 
-.left-login{
+.left-cadastro{
     width: 50vw;
-    height: 100vw;
+    height: 0vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.left-login > h1 {
+.left-cadastro> h1 {
     font-size: 3vw;
     color: #000000;
 }
 
-.left-login-image{
+.left-cadastro-image{
     width: 45vw;
 }
 
-.right-login{
+.right-cadastro{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -46,7 +46,7 @@ body * {
 }
 
 /**/
-.card-login{
+.card-cadastro{
     width: 70%;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ body * {
 
 }
 
-.card-login > h1 {
+.card-cadastro > h1 {
     color: #333333;
     font-weight: 500;
     margin: 0%;
@@ -98,24 +98,8 @@ body * {
 
 }
 
-.btn-login{
-    width: 100%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    /*color: #b00cb0;*/
-    background: #f8fae3cd;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00000052;
-
-}
 .btn-cadastro{
-    width: 100%;
+    width: 450px;
     padding: 16px 0px;
     margin: 25px;
     margin-bottom: -60px;
@@ -125,8 +109,7 @@ body * {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    /*color: #bfbfbf;*/
-    background: #f8fae3cd;
+    background: #909090cd;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000052;
 
