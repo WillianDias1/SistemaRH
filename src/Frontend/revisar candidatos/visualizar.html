@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../pagina principal/style.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../vagas/style.css">
+    <link rel="stylesheet" href="../cadastrar candidatos/style.css">
     <title>Criar vagas</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
                 </a>
             </li>
             <li class="lista active">    
-                <a href="#">
+                <a href="./revisar.html">
                     <span class="icone"><ion-icon name="folder-outline"></ion-icon></span>
                     <span class="title">Revisar candidatos</span>
                 </a>
@@ -93,9 +94,16 @@
     </script>
 
 <div class="parte_central">
-    <h2>Revisar candidatos</h2>
+    <h2>Visualizar candidatos</h2>
     <section class="secao">
+        <div class="Medidor">
+            <h3 class="design">Designer</h3>
+            <p>Nome: Camila Souza</p>
+            <p>Email: camila@email.com</p>
+            <p>Tel: (73) 98888-8888</p>
+        </div>
         
+        <h3>Perfil comportamental</h3>
         <div class="Medidor1">
 
             <h3>Camila Souza</h3>
@@ -128,79 +136,6 @@
                 <p class="resultado" id="resultado3">.</p>
             </div>
              
-        </div>
-        <div class="Medidor">
-            <h3>Candidatos</h3>
-            <!-- <script>
-                function coletaDados() {
-                    var ids = document.getElementsByClassName('editar');
-                    coletaIDs(ids);
-                }
-
-                function coletaIDs(dados) {
-                    var array_dados = dados;
-                    var newArray = [];
-                    for (var x = 0; x <= array_dados.length; x++) {
-                        if (typeof array_dados[x] == 'object') {
-                            if (array_dados[x].checked) {
-                                newArray.push(array_dados[x].id)
-                            }
-                        }
-                    }
-                    if (newArray.length <= 0) {
-                        alert("Selecione um pelo menos 1 item!");
-                    } else {
-                        alert("Seu novo array de IDs tem os seguites ids [ " + newArray + " ]");
-                    }
-                }
-            </script> -->
-            
-             <table>
-               <thead>
-                   <tr>
-                     <th></th>
-                     <th>nome</th>
-                     <th>Email</th>
-                     <th>Status do questionário</th>
-                     <th>Afinidade com a vaga</th>
-                     <th>Nota do questionário</th>
-                     <th>Entrevistar</th>
-                     <th>Visualizar</th>
-                   </tr>
-               </thead>
-               <tbody>
-                   <tr>
-                     <td><input type="checkbox" id="01" value="Candidato" checked="checked" ></td>
-                     <td>Camila Souza</td>
-                     <td>camila@email.com</td>
-                     <td style="color:green">Feito</td>]
-                     <td>10</td>
-                     <td>9</td>
-                     <td><button class="botao botao2">Sim</button></td>
-                     <td><a href="./visualizar.html"><button class="botao botao2">Visualizar</button></a></td>
-                   </tr>
-                   <tr>
-                    <td><input type="checkbox" id="0" value="Candidato"></td>
-                    <td>Jorge Santos</td>
-                    <td>jorge@email.com</td>
-                    <td style="color:green">Feito</td>]
-                    <td>8   </td>
-                    <td>6</td>
-                    <td><button class="botao botao2">Sim</button></td>
-                    <td><button class="botao botao2">Visualizar</button></td>
-                   </tr>
-                 <tr>
-                    <td><input type="checkbox" id="03" value="Candidato"></td>
-                    <td>Luis Silva</td>
-                    <td>luis@email.com</td>
-                    <td style="color:red">Pendente</td>]
-                    <td>-</td>
-                    <td>-</td>
-                    <td><button class="botao botao2" disabled="disabled">Não</button></td>
-                    <td><button class="botao botao2" disabled="disabled">Visualizar</button></td>
-                 </tr>
-               </tbody>
-             </table>
         </div>
         
         
@@ -240,6 +175,17 @@
             document.addEventListener("change", range3);
              
         </script>
+
+    <a href="#">
+        <button class="botao">Cancelar</button>
+    </a>
+
+    <a href="#">
+        <button class="botao botao2">
+            <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+            <span>Editar</span> 
+        </button>
+    </a>
         
     </section>
 </div>

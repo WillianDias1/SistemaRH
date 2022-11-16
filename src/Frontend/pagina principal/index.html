@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../vagas/style.css">
 </head>
 <body>
     <div class="navegacao">
@@ -18,7 +19,7 @@
                 </a>
             </li>
             <li class="lista">    
-                <a href="#">
+                <a href="../cadastrar candidatos/cadastrar.html">
                     <span class="icone"><ion-icon name="person-add-outline"></ion-icon></span>
                     <span class="title">Cadastrar candidatos</span>
                 </a>
@@ -90,15 +91,45 @@
         item.addEventListener('click', activeLink));
     </script>
 
-    <div class="parte_central">
+    <div class="parte_central PC">
         <h2>Dashboard</h2>
         <section class="secao1">
             <h3>Atividades recentes nas vagas</h3>
-            <a href="#">Ver todas</a>
+
+            <div class="atv_recentes">
+                <p>Gerente de projetos</p>
+
+                <ion-icon name="time-outline"></ion-icon>
+                <span>Aberto há 23 dias</span>
+                <br>
+                <ion-icon name="person-outline"></ion-icon>
+                <span>Candidatos: 6</span>
+
+                <a class="acess" href="#"><button class="botao botao2">Acessar</button></a>
+            </div>
+
+            <a href="#">
+                <button class="botao botao2 ver">Ver todas</button>
+            </a>
         </section>
         <section class="secao1 secao2">
-            <h3>Avaliações pendentes</h3>
-            <a href="#">Ver todas</a>
+            <h3>Atividades recentes nas vagas</h3>
+
+            <div class="atv_recentes">
+                <p>Designer</p>
+
+                <ion-icon name="time-outline"></ion-icon>
+                <span>Aberto há 2 dias</span>
+                <br>
+                <ion-icon name="person-outline"></ion-icon>
+                <span>Candidatos: 5</span>
+
+                <a class="acess" href="#"><button class="botao botao2">Acessar</button></a>
+            </div>
+
+            <a href="#">
+                <button class="botao botao2 ver">Ver todas</button>
+            </a>
         </section>
         
     </div>

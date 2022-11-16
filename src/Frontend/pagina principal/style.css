@@ -27,7 +27,7 @@ body{
 
 .navegacao{
     position: relative;
-    height: 800px;
+    height: 750px;
     background:whitesmoke;
     width: 70px; /* mudar para 70px para efeito anterior */
     box-shadow: 10px 0 0 #FCA311;
@@ -156,6 +156,7 @@ span:hover{
     width:62%;
     height: 100%;
     left: 260px;
+    /* text-align: center; */
 }
 .parte_central h2{
     margin-top: 30px;
@@ -178,7 +179,7 @@ span:hover{
     border-radius: 5px;
     text-decoration: none;
 }
-.parte_central .secao1 a{
+/* .parte_central .secao1 a{
     position: relative;
     display: block;
     color: #000000;
@@ -188,9 +189,45 @@ span:hover{
     font-weight: medium;
     border-radius: 5px;
     border: 2px solid;
-}
+} */
 
 .parte_central  .secao2 {
     position: relative;
     display: inline-block;
+}
+
+.atv_recentes{
+    border: 2px solid #FCA311;
+    display: block;
+    position: relative;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #9b9898;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.atv_recentes p{
+    background: #FCA311;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.acess{
+    display: flex;
+    margin-left: 65px;
+    margin-bottom: 5px;
+}   
+
+.ver{
+    background: #FCA311;
+    display: block;
+    color: #FFF;
+    width: 380px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+.PC{
+    text-align: center;
 }

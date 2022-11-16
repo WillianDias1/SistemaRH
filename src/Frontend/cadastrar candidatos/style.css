@@ -1,0 +1,19 @@
+a .icon{
+    display: inline-block;
+    margin: -3px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+button span{
+    margin-right: 20px;
+   
+}
+button span:hover{
+    text-decoration: none;
+}
+
+.inputC{
+    display: block;
+    position: relative;
+}
+
